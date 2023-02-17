@@ -4,5 +4,6 @@ E-mail to connectivity@gemini.com and specify the email address used to setup yo
 
 Download quick fix xml file from https://docs.gemini.com/fix-api/#download
 
-create yml file 
-ceate python file
+create connection file client_connection.yml
+
+create python script to connect exchange gemini.py
