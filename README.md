@@ -1,6 +1,6 @@
 # fix_protocol to gemini
 
-E-mail to connectivity@gemini.com and specify the email address used to setup your Sandbox/prod account and the Source IP that you will be using to connect to the FIX Sandbox/prod. 
+E-mail to connectivity@gemini.com and specify the email address, used to setup your Sandbox/prod account and the Source IP that you will be using to connect to the FIX Sandbox/prod. Ask target Ip and Port to connect.
 
 Download quick fix xml file from https://docs.gemini.com/fix-api/#download
 
