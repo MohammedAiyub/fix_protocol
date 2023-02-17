@@ -1,0 +1,24 @@
+[DEFAULT]
+ConnectionType=initiator
+LogonTimeout=6000
+ReconnectInterval=6030
+ResetOnLogon=Y
+FileLogPath=/home/fix/fix_logs/
+
+[SESSION]
+BeginString=FIX.4.4
+SenderCompID = <Sender compid which recive from gemini>
+TargetCompID = <target compid receives from gemini>
+SocketConnectPort=1515
+SocketConnectHost=3.220.21.165
+StartTime=00:00:00
+EndTime=00:00:00
+HeartBtInt=30
+CheckLatency=N
+MaxLatency=240
+UseDataDictionary=Y
+DefaultApplVerID=FIX.4.4
+TransportDataDictionary=/home/fix/gemini-fix-dictionary-sandbox.xml
+DataDictionary=/home/fix/gemini-fix-dictionary-sandbox.xml
+AppDataDictionary=/home/fix/gemini-fix-dictionary-sandbox.xml
+FileStorePath=/home/fix/session/
